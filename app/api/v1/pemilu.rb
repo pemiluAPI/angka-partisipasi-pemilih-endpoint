@@ -74,7 +74,7 @@ module Pemilu
       end
     end
 
-    resource :subdistrict do
+    resource :kecamatan do
       desc "Return all Subdistrict"
       get do
         subdistricts = Array.new
